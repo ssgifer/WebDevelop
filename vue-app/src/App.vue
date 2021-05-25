@@ -1,21 +1,10 @@
-<template>
-  <div id = "app">
-    <LoginForm />
-  <div class = "row mt-3" />
-  <div class = col-sm-4 />
-
-    <from>
-      
-  </div>
-</template>
-
 <script>
-import LoginForm from './components/LoginForm.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    LoginForm
+    HelloWorld
   }
 }
 </script>
